@@ -1,0 +1,78 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background: rgb(1, 4, 53);
+
+}
+
+h1{
+    font-size: 4rem;
+    color: rgb(201, 164, 71);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+span
+{
+    font-weight: 100;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+.key{
+    border: .3rem solid white;
+    border-radius: .6rem;
+    margin: 1.2rem;
+    padding: 1rem .5rem;
+    color:white;
+    background-color: rgb(105, 105, 166);
+    text-align: center;
+    width: 10rem;
+    font-size: 1.5rem;
+    transition: all .07s ease;
+
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #7109ef;
+    box-shadow: 0 0 1rem #bb86fc;
+  }
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+
+.sound
+{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color:rgb(8, 210, 11)
+}
+
+kbd{
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 5px;
+  }
+  
+  footer a:visited {
+    color: inherit;
+  }
